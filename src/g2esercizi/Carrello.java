@@ -1,12 +1,12 @@
 package g2esercizi;
 
 public class Carrello {
-	Object cliente;
-	Object[] articoli ;
+	Cliente cliente;
+	Articolo[] articoli ;
 	double costoTotale;
 	
 	
-	public Carrello(Object client,Object[] articles,double total ) {
+	public Carrello(Cliente client,Articolo[] articles,double total ) {
 		this.cliente= client;
 		this.articoli=articles;
 		this.costoTotale=total ;
