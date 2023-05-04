@@ -11,8 +11,8 @@ public class Esercizio3 {
 		System.out.println();
 	}
 
-	@Override
-	public String toString () {
-		return this.mioCarrello;
-	}
+//	@Override
+//	public String toString () {
+//		return t;
+//	}
 }
